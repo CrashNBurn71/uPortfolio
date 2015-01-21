@@ -1,0 +1,120 @@
+* {
+	font-family: 'Lato', sans-serif;
+	color: #696250;
+}
+
+h1, h2, h3 {
+	margin:13px 0 13px 10px;
+}
+
+
+/* HEADER Section
+*/
+#page > .page-content > .header > img.logo,
+#page > .page-content > .header > .header-top > img.logo
+{
+	display:none;
+}
+
+@media only screen and (min-width:508px) {
+	#page > .page-content > .header > img.logo,
+	#page > .page-content > .header > .header-top > img.logo
+	{
+		display:block;
+		
+		 min-width:113px; max-width:113px;
+		border:8px solid #f2922c;
+		border-radius:56px;
+		
+	}
+}
+
+
+#page > .page-content > .header > .header-text > h1,
+#page > .page-content > .header > .header-text > h2 {
+	margin:0;
+}
+
+#page > .page-content > .header > .header-text > h1 {
+	font-size:64px;
+	font-weight:100;
+	text-shadow:1px 0px 0 #000000;
+}
+
+#page > .page-content > .header > .header-text > h2 {
+	font-weight:300;
+	text-shadow:1px 0px 0 #696250;
+}
+
+#page > .page-content > .header-splitter > hr {
+	color:  #c1b7b1;	/* old iE */
+	background-color: #c1b7b1; /* Modern Browsers */			
+	width:100%;
+	 border: none;
+	height: 3px;
+}
+
+
+
+/* TOP Section
+	Unused
+*/
+
+
+
+/* MIDDLE Section
+*/
+
+#page > .page-content > .middle > .img-container {
+	 display:flex;
+	 width:inherit;
+}
+
+#page > .page-content > .middle > .img-container > .img-spacer {
+	width:100%;
+	background-color:black;
+}
+
+#page > .page-content > .middle > .img-container > img {
+	min-width:278px;
+	max-width:474px;
+}
+
+
+
+/* BOTTOM Section 
+*/
+.bottom > .featured-interests {
+	width:inherit;
+}
+
+.bottom > .featured-interests > h2 {
+	color: #c1b7b1;
+	font-size:28px;
+	font-weight:400;
+	/*margin:13px 0 13px 10px; --- defined above */
+}
+
+@media only screen and (min-width:450px) {
+	.bottom > .featured-interests > h2 {
+		font-size:36px;
+	}
+}
+
+
+
+#page > .page-content > .bottom  ul {
+	padding-left:0px; 
+	font-size:0;	/* Fix because HTML renders whitespace. */
+}
+#page > .page-content > .bottom  ul > li {
+	width:33.33%;		/* .col-4x12 */
+	display:table-cell;
+	font-size:16px;	/* Reset the font-size, due to ul's font-size:0 fix. */
+	text-align:center; /* Needs to be done here... not on the actual h3 .... */
+}
+
+#page > .page-content > .bottom  ul > li > a > img {
+	width:94.4%;
+}
+

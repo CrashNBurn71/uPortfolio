@@ -1,0 +1,61 @@
+/* {
+    border: 1px solid red !important;
+}	/* */
+
+* {
+	 -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+ #page	{	/* .grid */
+	max-width: 1200px;
+	min-width:320px;
+	width: 100%;
+}
+
+.page-content {
+	 width:inherit;
+	 margin: 0 auto;
+}
+
+/* .row,  */
+
+#page > .page-content > .header,
+#page > .page-content > .header-splitter ,
+#page > .page-content > .top, 
+#page > .page-content > .middle, 
+#page > .page-content > .bottom  
+{
+	display: flex;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#page > .page-content > .header {
+	display:flex;
+}
+
+#page > .page-content > .header > .header-text {
+	width:100%;
+	text-align:right;
+}
+
+
+
+/* Unused in the HTML
+
+.nCol-1 { width:100%; 		}	.nCol-5 { width:20.00%;		}	.nCol-9 {	width:11.11%;		}
+.nCol-2 { width:50.00%;		}	.nCol-6 { width:16.66%;		}	.nCol-10 { width:10%;		}
+.nCol-3 { width:33.33%;		}	.nCol-7 { width:14.86%;		}	.nCol-11 {	width:9.09%		}
+.nCol-4 { width:25.00%;		}	.nCol-8 {	width:12.5%;		}	.nCol-12 { width:8.33%;		}
+
+
+.col-1x12 { width: 8.33%;	}	.col-5x12 { width: 41.66%;	}	.col-9x12 { width: 75.00%;	}
+.col-2x12 { width: 16.66%;	}	.col-6x12 { width: 50.00%;	}	.col-10x12 { width: 83.33%;	}
+.col-3x12 { width: 25.00%;	}	.col-7x12 { width: 58.33%;	}	.col-11x12 { width: 91.66%;	}
+.col-4x12 { width: 33.33%;	}	.col-8x12 { width: 66.66%;	}	.col-12x12 { width: 100%;	}
+*/
+
